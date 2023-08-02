@@ -1,6 +1,6 @@
 class ArrayList<T : Any> {
 
-    private var data = Array<Any>(16) {}
+    private var data =  Array < Any >(16) { }
 
     private var size = 0
 
