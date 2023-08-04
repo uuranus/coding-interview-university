@@ -1,7 +1,7 @@
 import java.util.LinkedList
 
 class SinglyLinkedList {
-    private var head: ListNode? = null
+    private var head: SinglyListNode? = null
     //private var tail: ListNode? = null
 
     private var size = 0
@@ -21,7 +21,7 @@ class SinglyLinkedList {
         return point?.item!!
     }
 
-    private fun nodeAt(index: Int): ListNode? {
+    private fun nodeAt(index: Int): SinglyListNode? {
         if (size <= index) return null
 
         var point = head
@@ -32,8 +32,19 @@ class SinglyLinkedList {
         return point
     }
 
+    private fun search(value: Any): SinglyListNode? {
+        var point = head
+
+        while (point != null) {
+            if (point.item == value) return point
+            point = point.next
+        }
+
+        return null
+    }
+
     fun pushFront(value: Any) {
-        val newNode = ListNode(value, head)
+        val newNode = SinglyListNode(value, head)
 
         head = newNode
         //tail
@@ -60,7 +71,7 @@ class SinglyLinkedList {
         while (point?.next != null) {
             point = point.next
         }
-        val newNode = ListNode(value)
+        val newNode = SinglyListNode(value)
         point?.next = newNode
         size++
 
@@ -116,7 +127,7 @@ class SinglyLinkedList {
         }
 
         val next = point?.next
-        val newNode = ListNode(value, next)
+        val newNode = SinglyListNode(value, next)
         point?.next = newNode
         size++
     }
@@ -151,7 +162,7 @@ class SinglyLinkedList {
         return valueAt(index)
     }
 
-    fun nodeNFromEnd(n: Int): ListNode? {
+    fun nodeNFromEnd(n: Int): SinglyListNode? {
         if (size < n) throw ArrayIndexOutOfBoundsException()
 
         val index = size - n
@@ -186,7 +197,7 @@ class SinglyLinkedList {
 
 }
 
-data class ListNode(
+data class SinglyListNode(
     val item: Any,
-    var next: ListNode? = null
+    var next: SinglyListNode? = null
 )
