@@ -756,8 +756,8 @@ if you can identify the runtime complexity of different algorithms. It's a super
             - inorder (DFS: left, self, right)
             - postorder (DFS: left, right, self)
             - preorder (DFS: self, left, right)
-    - [ ] [[Review] Breadth-first search in 4 minutes (video)](https://youtu.be/HZ5YTanv5QE)
-    - [ ] [[Review] Depth-first search in 4 minutes (video)](https://youtu.be/Urx87-NMm6c)
+    - [X] [[Review] Breadth-first search in 4 minutes (video)](https://youtu.be/HZ5YTanv5QE)
+    - [X] [[Review] Depth-first search in 4 minutes (video)](https://youtu.be/Urx87-NMm6c)
     - [ ] [[Review] Tree Traversal (playlist) in 11 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b)
 
 - ### Binary search trees: BSTs
