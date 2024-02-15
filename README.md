@@ -760,9 +760,9 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [ ] [[Review] Tree Traversal (playlist) in 11 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b)
 
 - ### Binary search trees: BSTs
-    - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+    - [X] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
     - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
-    - [ ] [MIT (video)](https://www.youtube.com/watch?v=76dhtgZt38A&ab_channel=MITOpenCourseWare)
+    - [X] [MIT (video)](https://www.youtube.com/watch?v=76dhtgZt38A&ab_channel=MITOpenCourseWare)
     - C/C++:
         - [ ] [Binary search tree - Implementation in C/C++ (video)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
         - [ ] [BST implementation - memory allocation in stack and heap (video)](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
@@ -774,18 +774,18 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - [ ] [Check if a binary tree is a binary search tree or not (video)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
         - [ ] [Delete a node from Binary Search Tree (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
         - [ ] [Inorder Successor in a binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-    - [ ] Implement:
-        - [ ] [insert    // insert value into tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/submissions/987660183/)
-        - [ ] get_node_count // get count of values stored
-        - [ ] print_values // prints the values in the tree, from min to max
-        - [ ] delete_tree
-        - [ ] is_in_tree // returns true if a given value exists in the tree
-        - [ ] [get_height // returns the height in nodes (single node's height is 1)](https://www.geeksforgeeks.org/find-the-maximum-depth-or-height-of-a-tree/)
-        - [ ] get_min   // returns the minimum value stored in the tree
-        - [ ] get_max   // returns the maximum value stored in the tree
-        - [ ] [is_binary_search_tree](https://leetcode.com/problems/validate-binary-search-tree/)
-        - [ ] delete_value
-        - [ ] get_successor // returns the next-highest value in the tree after given value, -1 if none
+    - [X] Implement:
+        - [X] [insert    // insert value into tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/submissions/987660183/)
+        - [X] get_node_count // get count of values stored
+        - [X] print_values // prints the values in the tree, from min to max
+        - [X] delete_tree
+        - [X] is_in_tree // returns true if a given value exists in the tree
+        - [X] [get_height // returns the height in nodes (single node's height is 1)](https://www.geeksforgeeks.org/find-the-maximum-depth-or-height-of-a-tree/)
+        - [X] get_min   // returns the minimum value stored in the tree
+        - [X] get_max   // returns the maximum value stored in the tree
+        - [X] [is_binary_search_tree](https://leetcode.com/problems/validate-binary-search-tree/)
+        - [X] delete_value
+        - [X] get_successor // returns the next-highest value in the tree after given value, -1 if none
 
 - ### Heap / Priority Queue / Binary Heap
     - visualized as a tree, but is usually linear in storage (array, linked list)
