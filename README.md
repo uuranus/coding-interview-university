@@ -928,7 +928,7 @@ Graphs can be used to represent many problems in computer science, so this secti
 - [ ] Graphs (review and more):
 
     - [X] [6.006 Single-Source Shortest Paths Problem (video)](https://www.youtube.com/watch?v=Aa2sqUhIn-E&index=15&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [6.006 Dijkstra (video)](https://www.youtube.com/watch?v=NSHizBK9JD8&t=1731s&ab_channel=MITOpenCourseWare)
+    - [X] [6.006 Dijkstra (video)](https://www.youtube.com/watch?v=NSHizBK9JD8&t=1731s&ab_channel=MITOpenCourseWare)
     - [ ] [6.006 Bellman-Ford (video)](https://www.youtube.com/watch?v=f9cVS_URPc0&ab_channel=MITOpenCourseWare)
     - [ ] [6.006 Speeding Up Dijkstra (video)](https://www.youtube.com/watch?v=CHvQ3q_gJ7E&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=18)
     - [ ] [Aduni: Graph Algorithms I - Topological Sorting, Minimum Spanning Trees, Prim's Algorithm -  Lecture 6 (video)]( https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
@@ -951,7 +951,7 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [X] DFS with adjacency matrix (iterative with stack)
     - [X] BFS with adjacency list
     - [X] BFS with adjacency matrix
-    - [ ] single-source shortest path (Dijkstra)
+    - [X] single-source shortest path (Dijkstra)
     - [ ] minimum spanning tree
     - DFS-based algorithms (see Aduni videos above):
         - [ ] check for a cycle (needed for topological sort, since we'll check for the cycle before starting)
